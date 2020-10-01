@@ -1,0 +1,20 @@
+{
+  "name": "test-server",
+  "version": "1.0.0",
+  "description": "testing server for queries",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Roshan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0",
+    "shortid": "^2.2.15",
+    "socket.io": "^2.3.0"
+  }
+}
